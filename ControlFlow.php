@@ -1,7 +1,7 @@
 <?php
 require_once 'variables.php';  
 
-$person = new Variable("Aditya", 20, "male", 3.77, true, "2004-06-25"); 
+$person = new Variable(); 
 
 echo "Name: " . $person->getName();   
 echo "<br>";
