@@ -7,9 +7,9 @@ class Variable {
     public $gpa = 3.77;
     public $isStudent = true;
 
-    public $date;
+    public $date = "2004-6-25";
 
-    public function __construct($nama = "Aditya", $age = 20, $sex = "male", $gpa = 3.77, $isStudent = true, $date = null) {
+    public function __construct($nama = "Aditya", $age = 20, $sex = "male", $gpa = 3.77, $isStudent = true, $date  = "2004-6-25") {
         $this->name = $nama;
         $this->age = $age;
         $this->sex = $sex;
